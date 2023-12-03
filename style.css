@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins:wght@100&family=Roboto+Slab:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(245, 222, 191);
+    z-index: 3;
+}
+li a {
+    transition: 0.3s all ease;
+}
+header ul li a:hover {
+    color: grey;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.title {
+    font-size: 20px;
+    
+}
+.t1 {
+    position: absolute;
+    top: 20px;
+    left: 48px;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    
+}
+.t2 {
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    left: 90px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.t3 {
+    position: absolute;
+    font-size: 45px;
+    top: 20px;
+    left: 85px;
+    color: rgb(117, 109, 95);
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 40px;
+    right: 50px;
+    display: flex;
+    font-size: 15px;
+    gap: 85px;
+}
+.logIn {
+    position: absolute;
+    top: 3px;
+    right: 45px;
+    /* border: 1px solid black;
+    border-radius: 50%;
+    padding: 7px;
+    background-color:rgb(71, 71, 71); */
+}
+li a {
+    color: black;
+}
+.backgroundImg {
+    position: relative;
+    background-image: url(https://bombaycafe-la.com/wp-content/uploads/2022/10/coffee-shop-1154289_1280.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: -1;
+}
+.mainTitle {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    width: 850px;
+    color: white;
+    font-size: 40px;
+}
+.mainTitle p {
+    font-size: 20px;
+}
+.mainBtns {
+    position: absolute;
+    top: 500px;
+    left: 75px;
+}
+.mainBtns button {
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+.mainBtns button a {
+    color: white;
+}
+.dailydeal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(22, 35, 22);
+}
+.dailydeal h2 {
+    /* position: relative;
+    left: 36%;
+    top: 20px; */
+    color: white;
+}
+.section1 {
+    display: flex;
+}
+.leftside {
+    position: relative;
+    width: 50%;
+    height: 650px;
+}
+.rightside {
+    width: 50%;
+    height: 650px;
+    background-image: url(https://www.chasinglenscapes.com/wp-content/media/2020/06/food-photography-on-the-go-tips.jpg);
+    background-size: cover;
+    background-position: 37%;
+    /* background-position: right; */
+    background-repeat: no-repeat;
+}
+.eatinfo {
+    margin: 170px auto;
+    width: 350px;
+    font-size: 20px;
+}
+.eatinfo h2 {
+    font-size: 70px;
+}
+.minAbout {
+    font-size: 20px;
+    font-weight: 100px;
+}
+.eatinfo button{
+    padding: 15px 40px;
+    border: 1px solid black;
+    background-color: transparent;
+    transition: 0.3s all ease;
+}
+.eatinfo button:hover {
+    background-color: rgb(51, 68, 48);
+    color: white;
+}
+.eatinfo button a {
+    color: black;
+    font-size: 16px;
+    transition: 0.3s all ease;
+}
+.eatinfo button a:hover {
+    color: white;
+}
+.section2 {
+    display: flex;
+}
+.leftside1 {
+    width: 50%;
+    height: 650px;
+    background-image: url(https://trungimgs.trung-nguyen-online.com/1665808807799.jpg);
+    background-size: cover;
+    background-position: 37%;
+    background-repeat: no-repeat;
+}
+.rightside1 {
+    position: relative;
+    width: 50%;
+    height: 650px;   
+}
+.drinkinfo {
+    margin: 170px auto;
+    width: 350px;
+    font-size: 20px;
+}
+.drinkinfo h2 {
+    font-size: 70px;
+}
+.minAbout {
+    font-size: 20px;
+}
+.drinkinfo button{
+    padding: 15px 40px;
+    border: 1px solid black;
+    background-color: transparent;
+    transition: 0.3s all ease;
+}
+.drinkinfo button:hover {
+    background-color: rgb(51, 68, 48);
+    color: white;
+}
+.drinkinfo button a {
+    color: black;
+    font-size: 16px;
+    transition: 0.3s all ease;
+}
+.drinkinfo button a:hover {
+    color: white;
+}
+.section3 {
+    display: flex;
+}
+.leftside2 {
+    position: relative;
+    width: 50%;
+    height: 650px;
+}
+.rightside2 {
+    width: 50%;
+    height: 650px;
+    background-image: url(https://media.istockphoto.com/id/1130595856/photo/two-cheerful-women-having-fun-during-coffee-time-in-a-cafe.jpg?s=612x612&w=0&k=20&c=AYKKdkOddAsqfPjkP8UP8KFffduh3KyRTYyTceUqrDw=);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.enjoyinfo {
+    margin: 170px auto;
+    width: 350px;
+    font-size: 20px;
+}
+.enjoyinfo h2 {
+    font-size: 70px;
+}
+.minAbout {
+    font-size: 20px;
+    font-weight: 100px;
+}
+.enjoyinfo button{
+    padding: 15px 40px;
+    border: 1px solid black;
+    background-color: transparent;
+    transition: 0.3s all ease;
+}
+.enjoyinfo button:hover {
+    background-color: rgb(51, 68, 48);
+    color: white;
+}
+.enjoyinfo button a {
+    color: black;
+    font-size: 16px;
+    transition: 0.3s all ease;
+}
+.enjoyinfo button a:hover {
+    color: white;
+}
+.information {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(248, 236, 220);
+}
+.information h2 {
+    font-family: 'Poppins', sans-serif;
+}
+.infoTitle {
+    position: absolute;
+    font-size: 56px;
+    top: 50px;
+    left: 35%;
+    font-family: 'Poppins', sans-serif;
+}
+.addressinfo {
+    position: absolute;
+    font-size: 17px;
+    top: 150px;
+    left: 535px;
+}
+.openinfo {
+    position: absolute;
+    font-size: 17px;
+    top: 150px;
+    right: 525px;
+}
+.photoSection {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-color: grey;
+}
+.photo1 {
+    width: 25%;
+    background-image: url(https://static.thehoneycombers.com/wp-content/uploads/sites/2/2022/06/best-cafes-in-singapore-900x643.png);
+    background-size: cover;
+}
+.photo2 {
+    width: 25%;
+    background-image: url(https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FmZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+}
+.photo3 {
+    width: 25%;
+    background-image: url(https://cdn.hourdetroit.com/wp-content/uploads/sites/20/2018/11/GreenSpaceCafeComfortFoods-696x464.jpg);
+    background-size: cover;
+}
+.photo4 {
+    width: 25%;
+    background-image: url(https://www.theceilidhplace.com/images/cafe1.jpg);
+    background-size: cover;
+}
+footer {
+    position: relative;
+    height: 400px;
+    background-color: rgb(51, 68, 48);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer-left {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.footer-left h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-left p {
+    font-size: 17px;
+    width: 280px;
+}
+.footer-left input {
+    padding: 10px 10px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.footer-left button {
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid white;
+    left: 182px;
+    padding: 10px 20px;
+}
+.footer-left button a {
+    color: white;
+}
+.contact {
+    position: absolute;
+    top: 100px;
+    left: 650px;
+}
+.contact h2 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact p {
+    font-size: 17px;
+}
+.contact p a {
+    text-decoration: none;
+    color: white;
+}
+.ift {
+    position: absolute;
+    font-size: 35px;
+    top: 85px;
+    right: 170px;
+}
+.ift h2 a {
+    color: white;
+}
+.copyright {
+    height: 30px;
+    text-align: center;
+    padding: 5px 0px;
+}
+.thisisus {
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 280px;
+    background-color: rgb(248, 236, 220);
+}
+.thisisus h2 {
+    font-size: 50px;
+
+}
+.thisisus div {
+    text-align: center;
+    font-size: 20px;
+    width: 620px;
+}
+.thisisus div p {
+    padding-bottom: 10px;
+    font-family: "poppins";
+    font-weight: bold;
+}
+.page2section1 {
+    display: flex;
+}
+.page2section1 .lftside {
+    width: 50%;
+    height: 750px;
+    background-image: url(https://cookieandkate.com/images/2018/08/best-avocado-salad-recipe-4.jpg);
+    background-size: cover;
+    background-position: 37%;
+    background-repeat: no-repeat;
+}
+.page2section1 .rghtside {
+    position: relative;
+    width: 50%;
+    height: 750px; 
+}
+.bite {
+    margin: 170px auto;
+    width: 350px;
+    font-size: 20px;
+}
+.bite h2 {
+    font-size: 40px;
+}
+.bite button{
+    padding: 15px 40px;
+    border: 1px solid black;
+    background-color: transparent;
+    transition: 0.3s all ease;
+}
+.bite button:hover {
+    background-color: rgb(51, 68, 48);
+    color: white;
+}
+.bite button a {
+    color: black;
+    font-size: 16px;
+    transition: 0.3s all ease;
+}
+.bite button a:hover {
+    color: white;
+}
+.foodinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(22, 35, 22);
+}
+.foodinfo h2 {
+    color: white;
+    font-size: 30px;
+    font-family: "poppins";
+}
+.page2section2 {
+    display: flex;
+}
+.page2section2 .lftside1 {
+    position: relative;
+    width: 50%;
+    height: 750px; 
+}
+.page2section2 .rghtside1 {
+    width: 50%;
+    height: 750px;
+    background-image: url(https://xpressocoffee.com.au/wp-content/uploads/2019/05/how-to-remember-regular-customers.jpg);
+    background-size: cover;
+    background-position: 37%;
+    background-repeat: no-repeat;
+}
+.plate {
+    margin: 170px auto;
+    width: 350px;
+    font-size: 20px;
+}
+.plate h2 {
+    font-size: 40px;
+}
+.plate button{
+    padding: 15px 40px;
+    border: 1px solid black;
+    background-color: transparent;
+    transition: 0.3s all ease;
+}
+.plate button:hover {
+    background-color: rgb(51, 68, 48);
+    color: white;
+}
+.plate button a {
+    color: black;
+    font-size: 16px;
+    transition: 0.3s all ease;
+}
+.plate button a:hover {
+    color: white;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 280px;
+    background-color: rgb(248, 236, 220);
+}
+.menu h2 {
+    font-size: 50px;
+
+}
+.menu div {
+    text-align: center;
+    font-size: 20px;
+    width: 620px;
+}
+.menu div p {
+    padding-bottom: 10px;
+    font-family: "poppins";
+    font-weight: bold;
+}
+.allday {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.allday h2 {
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    height: 250px;
+    width: 100%;
+}
+.menufoods {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px;
+    text-align: center;
+    font-family: "poppins";
+    font-weight: bolder;
+}
+.grid-container1 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    height: 500px;
+    width: 100%;
+}
+.all-day h2 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.all-day {
+    margin-bottom: 100px;
+}
+.connect {
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 280px;
+    background-color: rgb(248, 236, 220);
+}
+.connect h2 {
+    font-size: 50px;
+
+}
+.connect div {
+    text-align: center;
+    font-size: 20px;
+    width: 620px;
+}
+.connect div p {
+    padding-bottom: 10px;
+    font-family: "poppins";
+    font-weight: bold;
+}
+.s1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    width: 100%;
+    height: 550px;
+}
+.regform {
+    border-right: 1px solid black;
+    padding-top: 50px;
+    text-align: center;
+    width: 50%;
+    height: 470px;
+}
+.regform .names input {
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid black;
+    /* background-color: transparent; */
+}
+.regform .eml {
+    margin-top: 35px;
+    text-align: center;
+    padding: 15px 124px;
+    border: 1px solid black;
+    /* background-color: transparent; */
+}
+.regform .msg {
+    margin-top: 35px;
+    text-align: center;
+    padding: 50px 124px;
+    border: 1px solid black;
+}
+.regform .btn button{
+    margin-top: 30px;
+    padding: 15px 189.5px;
+    border: none;
+    background-color: rgb(51, 68, 48);
+    color: white;
+}
+.contactinfo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: 50%;
+    height: 550px;
+}
+.gridcontainer {
+   display: grid;
+   gap: 97.3px;
+   grid-template-columns: auto auto;
+   width: 400px;
+   height: 350px;
+}
+.gridcontainer .address i{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.gridcontainer .address h4 {
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.gridcontainer .address p {
+    font-weight: 600;
+    font-family: "poppins";
+    font-size: 17px;
+}
+.gridcontainer .phone i{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.gridcontainer .phone h4 {
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.gridcontainer .phone p {
+    font-weight: 600;
+    font-family: "poppins";
+    font-size: 17px;
+}
+.gridcontainer .emaill i{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.gridcontainer .emaill h4 {
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.gridcontainer .emaill p {
+    font-weight: 600;
+    font-family: "poppins";
+    font-size: 17px;
+}
+.gridcontainer .follow i{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.gridcontainer .follow h4 {
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.gridcontainer .follow p {
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    font-family: "poppins";
+    font-size: 17px;
+}
+@media screen and (max-width: 912px) {
+    nav ul {
+        font-size: 12px;
+    }
+    .mainTitle {
+        font-size: 20px;
+        width: 450px;
+    }
+    .backgroundImg {
+        height: 700px;
+    }
+    footer {
+        height: 900px;
+    }
+    .contact {
+        top: 320px;
+        left: 365px;
+    }
+    .footer-left {
+        top: 50px;
+        left: 365px;
+    }
+    .ift {
+        top: 600px;
+        left: 365px;
+    }
+
+}
